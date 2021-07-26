@@ -43,8 +43,8 @@ Design()
 
 print("")
 print(f'{Fore.RED}[{Fore.LIGHTCYAN_EX}1{Fore.LIGHTWHITE_EX}] {Fore.RED} Hacking Tools ')
-print("")
-print("")
+print(f'{Fore.RED}[{Fore.LIGHTCYAN_EX}2{Fore.LIGHTWHITE_EX}] {Fore.RED} Roblox Tools ')
+print(f'{Fore.RED}[{Fore.LIGHTCYAN_EX}3{Fore.LIGHTWHITE_EX}] {Fore.RED} Discord Tools ')
 
 
 
@@ -59,7 +59,16 @@ else:
     print("Not an answer lol?")
 
 
+if answer == "2":
+    exec(open('roblox.py').read())
+else:
+    print("Not an answer lol?")
 
+
+if answer == "3":
+    exec(open('discord.py').read())
+else:
+    print("Not an answer lol?")
 
 
 
@@ -83,7 +92,7 @@ def Design():
  {Fore.RED}|______\__,_|\__, |_|\___| {Fore.BLUE}|_|  |_|\__,_|_|\__|_| {Fore.RED}   |_|\___/ \___/|_|
                __/ |                                                 
                
-               {Fore.YELLOW} By Stoned.eagle#0003
+               {Fore.YELLOW} By Stoned.eagle#0003 & kojimu#1916
                {Fore.WHITE} discord.gg/beamz
 
 
